@@ -1,0 +1,13 @@
+| Date       | Department | Category    | Target_Amount |
+| ---------- | ---------- | ----------- | ------------- |
+| 2026-01-01 | Marketing  | Software    | 1500          |
+| 2026-01-02 | Sales      | Travel      | 1000          |
+| 2026-01-03 | IT         | Hardware    | 1500          |
+| 2026-01-04 | HR         | Training    | 700           |
+| 2026-01-05 | Finance    | Consulting  | 1000          |
+| 2026-01-06 | Marketing  | Advertising | 2200          |
+| 2026-01-07 | Sales      | Software    | 1500          |
+| 2026-01-08 | IT         | Travel      | 500           |
+| 2026-01-09 | HR         | Hardware    | 700           |
+| 2026-01-10 | Finance    | Training    | 400           |
+| …          | …          | …           | …             |
