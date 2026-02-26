@@ -18,8 +18,8 @@ This project analyzes organizational spend data to highlight trends, identify sa
 - **Fields Included:** Date, Category, Department, Amount, Planned Budget, Savings.  
 - **Data Model:** Star schema with one fact table (`Fact_Spend`) and four dimension tables (`Dim_Date`, `Dim_Category`, `Dim_Department`, `Dim_Budget`).  
 
-**Sample Data:** (PowerBI_Target_Dataset.csv)(PowerBI_Actual_Full_Dataset.csv)
-
+**Actual Spend Sample:** [data_sample/spend_data_sample.csv](data_sample/spend_data_sample.csv)  
+**Target Sample:** [data_sample/target_data_sample.csv](data_sample/target_data_sample.csv)
 ---
 
 ## 🛠️ Technical Stack
