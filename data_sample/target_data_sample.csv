@@ -1,13 +1,52 @@
-| Date       | Department | Category    | Target_Amount |
-| ---------- | ---------- | ----------- | ------------- |
-| 2026-01-01 | Marketing  | Software    | 1500          |
-| 2026-01-02 | Sales      | Travel      | 1000          |
-| 2026-01-03 | IT         | Hardware    | 1500          |
-| 2026-01-04 | HR         | Training    | 700           |
-| 2026-01-05 | Finance    | Consulting  | 1000          |
-| 2026-01-06 | Marketing  | Advertising | 2200          |
-| 2026-01-07 | Sales      | Software    | 1500          |
-| 2026-01-08 | IT         | Travel      | 500           |
-| 2026-01-09 | HR         | Hardware    | 700           |
-| 2026-01-10 | Finance    | Training    | 400           |
-| …          | …          | …           | …             |
+Date,Department,Category,Target_Amount
+2026-01-01,Marketing,Software,1500
+2026-01-02,Sales,Travel,1000
+2026-01-03,IT,Hardware,1500
+2026-01-04,HR,Training,700
+2026-01-05,Finance,Consulting,1000
+2026-01-06,Marketing,Advertising,2200
+2026-01-07,Sales,Software,1500
+2026-01-08,IT,Travel,500
+2026-01-09,HR,Hardware,700
+2026-01-10,Finance,Training,400
+2026-01-11,Marketing,Software,1600
+2026-01-12,Sales,Travel,1100
+2026-01-13,IT,Hardware,1600
+2026-01-14,HR,Training,700
+2026-01-15,Finance,Consulting,1000
+2026-01-16,Marketing,Advertising,2300
+2026-01-17,Sales,Software,1500
+2026-01-18,IT,Travel,500
+2026-01-19,HR,Hardware,700
+2026-01-20,Finance,Training,400
+2026-01-21,Marketing,Software,1600
+2026-01-22,Sales,Travel,1100
+2026-01-23,IT,Hardware,1600
+2026-01-24,HR,Training,700
+2026-01-25,Finance,Consulting,1000
+2026-01-26,Marketing,Advertising,2300
+2026-01-27,Sales,Software,1500
+2026-01-28,IT,Travel,500
+2026-01-29,HR,Hardware,700
+2026-01-30,Finance,Training,400
+2026-01-31,Marketing,Software,1600
+2026-02-01,Sales,Travel,1100
+2026-02-02,IT,Hardware,1600
+2026-02-03,HR,Training,700
+2026-02-04,Finance,Consulting,1000
+2026-02-05,Marketing,Advertising,2300
+2026-02-06,Sales,Software,1500
+2026-02-07,IT,Travel,500
+2026-02-08,HR,Hardware,700
+2026-02-09,Finance,Training,400
+2026-02-10,Marketing,Software,1600
+2026-02-11,Sales,Travel,1100
+2026-02-12,IT,Hardware,1600
+2026-02-13,HR,Training,700
+2026-02-14,Finance,Consulting,1000
+2026-02-15,Marketing,Advertising,2300
+2026-02-16,Sales,Software,1500
+2026-02-17,IT,Travel,500
+2026-02-18,HR,Hardware,700
+2026-02-19,Finance,Training,400
+2026-02-20,Marketing,Software,1600
