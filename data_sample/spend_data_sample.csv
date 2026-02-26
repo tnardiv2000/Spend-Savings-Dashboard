@@ -1,0 +1,13 @@
+| Date       | Department | Category    | Amount | Planned_Budget | Savings |
+| ---------- | ---------- | ----------- | ------ | -------------- | ------- |
+| 2026-01-01 | Marketing  | Software    | 1200   | 1500           | 300     |
+| 2026-01-02 | Sales      | Travel      | 800    | 1000           | 200     |
+| 2026-01-03 | IT         | Hardware    | 1500   | 1500           | 0       |
+| 2026-01-04 | HR         | Training    | 500    | 700            | 200     |
+| 2026-01-05 | Finance    | Consulting  | 900    | 1000           | 100     |
+| 2026-01-06 | Marketing  | Advertising | 2000   | 2200           | 200     |
+| 2026-01-07 | Sales      | Software    | 1300   | 1500           | 200     |
+| 2026-01-08 | IT         | Travel      | 400    | 500            | 100     |
+| 2026-01-09 | HR         | Hardware    | 600    | 700            | 100     |
+| 2026-01-10 | Finance    | Training    | 300    | 400            | 100     |
+| …          | …          | …           | …      | …              | …       |
