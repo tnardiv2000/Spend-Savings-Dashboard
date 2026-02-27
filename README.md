@@ -85,4 +85,9 @@ Before reproducing this project, ensure you have:
 
 ---
 
-## 🗂️ Repository Structure
+## 📞 Connect & Feedback
+- **LinkedIn:** [(https://www.linkedin.com/in/thiago-nardi-velazquez/)]
+- **Questions or Feedback?** Feel free to open an issue or reach out directly!
+
+---
+*Project by Thiago Nardi – Data Analyst | Power BI Developer | DAX & Data Modeling Specialist*
