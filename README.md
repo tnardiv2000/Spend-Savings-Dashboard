@@ -76,7 +76,7 @@ This dashboard uses a star schema for efficient reporting and comparison of actu
 
 Both fact tables are linked to all dimension tables with one-to-many relationships, enabling filtering and slicing in dashboard visuals.
 
-!(Star_Schema_diagram.jpg)
+![Star_Schema_diagram.jpg]
 
 ---
 
