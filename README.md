@@ -4,85 +4,85 @@
 
 ---
 
+## 📋 Project Overview
+This project demonstrates end-to-end business intelligence and data analytics capabilities. The Spend & Savings Dashboard analyzes organizational spend data to highlight trends, identify savings opportunities, and support data-driven decision-making. Built with Power BI and DAX, this dashboard showcases data modeling, visualization, and analytical skills in a real-world context.
+
+---
+
 ## 📌 Business Context
-This project analyzes organizational spend data to highlight trends, identify savings opportunities, and support data-driven decision-making. The dashboard helps answer questions like:
+The dashboard helps stakeholders answer critical business questions:
 
 - How has spending evolved over time?  
 - Which products or categories offer potential savings?  
-- Are we staying within target spends?
+- Are we staying within target spends and KPI goals?
+- What are the geographic spend patterns?
 
 ---
 
 ## 📊 Data Overview
 - **Data Source:** Anonymized spend and transaction data.  
 - **Fields Included:** Date, GEO, Category, Product, Spend, Savings, KPI.  
-- **Data Model:** Star schema with one fact table (`Fact_Spend`) and four dimension tables (`Dim_Date`, `Dim_Product`, `Dim_Geo`).  
+- **Data Model:** Star schema with one fact table (`Fact_Spend`) and three dimension tables (`Dim_Date`, `Dim_Product`, `Dim_Geo`).  
 
 **Actual Spend Sample:** [data_sample/spend_data_sample.csv](data_sample/spend_data_sample.csv)  
 **Target Sample:** [data_sample/target_data_sample.csv](data_sample/target_data_sample.csv)
+
 ---
 
 ## 🛠️ Technical Stack
 - **Power BI:** Dashboard creation and visualization    
-- **SQL:** Data extraction and transformation  
+- **DAX:** Advanced calculations and measures  
 - **Data Modeling:** Star schema design for efficient reporting
 
 ---
 
+## 🌟 Key Features
+- **Real-time Spend Tracking** – Monitor actual vs target spend across geographies and product lines
+- **Automated Savings Identification** – DAX-powered calculations to identify cost-saving opportunities
+- **Interactive Filtering** – Dynamic dashboard filters for budget variance analysis by category, product, and geography
+- **Time-based Analysis** – Year-over-year and month-over-month spend trend analysis
+- **KPI Monitoring** – Track savings as a percentage of spend against organizational targets
+
+---
+
 ## 🔑 Key Measures & Metrics
-Some of the key metrics included in the dashboard:
+Core metrics included in the dashboard:
 
 | Metric | Description |
 |--------|-------------|
 | **Total Spend** | Sum of all spend amounts |
 | **Total Savings** | Sum of all savings amounts |
 | **KPI %** | (Savings ÷ Spend) × 100 |
-| **Spend by Category/Product** | Aggregated spend trends |
+| **Spend by Category/Product** | Aggregated spend trends by dimension |
+| **Target vs Actual** | Budget variance analysis |
 
 ---
 
 ## 📈 Key Insights
-- Visualized total spend trends over time to detect high-spending periods.  
-- Identified top categories and products for potential cost savings.  
-- Compared target vs actual spend to monitor budget adherence.
+- Visualized total spend trends over time to detect high-spending periods and seasonal patterns.  
+- Identified top categories and products with highest cost-saving potential.  
+- Compared target vs actual spend to monitor budget adherence and variance.
+- Analyzed geographic spend distribution to identify regional spending patterns.
 
 ---
 
 ## 🖼️ Dashboard Screenshots
-![Dashboard Overview](screenshots)  
+View the dashboard visualizations in the `screenshots/` folder:
+- **Main Dashboard:** Pie Chart for spend and savings trends, card visuals for key metrics, tables for actual spend data
+- **KPI Comparison:** Line chart comparing target vs actual KPI with variance indicators
+- **Revenue & Profit Margin:** Line and column combination chart showing revenue trends and profit margin by year
+- **Customer Satisfaction:** Line, Clustered/Stacked columns and Pie chart for overall satisfaction score
+- **Interactive Elements:** Slicers for filtering by Category, Product, Geo, and Year
+- **Star Schema Diagram** – Visual representation of the data model
 
 ---
 
-## 🗂️ How to Reproduce
-1. Download the sample data from `data_sample/spend_data_sample.csv`.  
-2. Open Power BI and load the data.  
-3. Use the star schema diagram in `schema_diagram.jpg` to create relationships.  
-4. Build the visualizations as shown in the screenshots folder.
+## ✅ Prerequisites
+Before reproducing this project, ensure you have:
+- **Power BI Desktop** (version 2020.12 or later)
+- Basic understanding of star schemas and dimensional modeling
+- Familiarity with DAX formulas (recommended)
 
 ---
 
-## 📊 Star Schema
-
-This dashboard uses a star schema for efficient reporting and comparison of actual vs target data.
-
-**Fact Tables:**
-- **Actual_Data** – contains actual spend/units, planned budget, and savings
-- **Target_Data** – contains target amounts
-
-**Dimension Tables:**
-- **Dim_Date** – year, month, quarter, and day for time analysis
-- **Dim_Geo** – Geo and country  for geographic analysis
-- **Dim_Product** – product and category for product-level analysis
-
-Both fact tables are linked to all dimension tables with one-to-many relationships, enabling filtering and slicing in dashboard visuals.
-
-![Star Schema](screenshots/Star_Schema_Diagram.jpg)
----
-
-## ⚡ Notes
-- All data used is anonymized for privacy.  
-- Dashboard is intended for demonstration purposes and showcases end-to-end data modeling, DAX, and reporting skills.  
-
----
-
-*Project by Thiago Nardi – Data Analyst | Power BI & SQL | DAX & Data Modeling Enthusiast*
+## 🗂️ Repository Structure
