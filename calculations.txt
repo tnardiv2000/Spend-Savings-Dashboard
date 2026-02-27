@@ -1,0 +1,42 @@
+# Spend & Savings Dashboard - Data Transformations
+
+All calculations and adjustments are performed in Power Query on the sample datasets.
+
+1. Data Type Adjustments
+   - 'Date' columns converted to Date type
+   - 'Spend', 'Savings', 'Target_Spend', 'Target_Savings' columns converted to Number type
+   - 'Category' and 'Product' columns set to Text type
+
+2. Column Adjustments
+   - Renamed columns for clarity: 'Target_Spend' instead of 'Target'
+   - Added 'KPI' column: Savings / Spend
+   - Corrected formula inconsistencies when changing value types to percentage
+   - Corrected minor inconsistencies in Category names (e.g., "Software" vs "software")
+
+3. Aggregations / Grouping
+   - No aggregations in Power Query for this sample dashboard (all aggregations handled in visuals)
+   - Data ready for filtering by Geo, Country, Category, Product, and Date
+
+4. Other Notes
+   - Dataset is anonymized and simplified for portfolio use
+   - No sensitive company data is included
+
+# Dimension Tables and Aggregations
+
+1. Dim_Date
+   - Extracted Year, Month, Quarter, and Day columns from 'Date' in Actual_Spend
+   - Ensures filtering and grouping in visuals by time periods
+
+2. Dim_Product
+   - Unique list of Category and Product from the Actual_Spend dataset
+   - Used for filtering and grouping spend by Product and Category
+   - Created CategoryProductKey to not have duplicates
+
+3. Dim_Geo
+   - Unique list of Geo and Country from the Actual_Spend dataset
+   - Used for filtering and grouping spend by Geo and Country
+   - Created GeoCountryKey to not have duplicates
+
+4. Notes
+   - No complex transformations applied; focus was on creating clean, reusable dimension tables
+   - Supports filtering and drill-down in the dashboard
