@@ -56,7 +56,7 @@ Some of the key metrics included in the dashboard:
 ## 🗂️ How to Reproduce
 1. Download the sample data from `data_sample/spend_data_sample.csv`.  
 2. Open Power BI and load the data.  
-3. Use the star schema diagram in `schema_diagram.png` to create relationships.  
+3. Use the star schema diagram in `schema_diagram.jpg` to create relationships.  
 4. Build the visualizations as shown in the screenshots folder.
 
 ---
@@ -76,7 +76,7 @@ This dashboard uses a star schema for efficient reporting and comparison of actu
 
 Both fact tables are linked to all dimension tables with one-to-many relationships, enabling filtering and slicing in dashboard visuals.
 
-
+![Star Schema](schema_diagram.png)
 ---
 
 ## ⚡ Notes
