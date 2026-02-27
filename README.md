@@ -66,8 +66,22 @@ Some of the key metrics included in the dashboard:
 
 ---
 
-## 📊 Star Schema Diagram
-![Star Schema](schema_diagram.png)
+## 📊 Star Schema
+
+This dashboard uses a star schema for efficient reporting and comparison of actual vs target data.
+
+**Fact Tables:**
+- **Actual_Data** – contains actual spend/units, planned budget, and savings
+- **Target_Data** – contains target amounts
+
+**Dimension Tables:**
+- **Dim_Date** – year, month, quarter, and day for time analysis
+- **Dim_Geo** – Geo and country  for geographic analysis
+- **Dim_Product** – product and category for product-level analysis
+
+Both fact tables are linked to all dimension tables with one-to-many relationships, enabling filtering and slicing in dashboard visuals.
+
+!(Star_Schema_diagram.jpg)
 
 ---
 
